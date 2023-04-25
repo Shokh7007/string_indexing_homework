@@ -6,5 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s.count("*")>0:
+        return s.count("*")
+    else:
+        return False
+print(main("abvd"))
         
