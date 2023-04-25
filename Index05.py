@@ -6,4 +6,16 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    n=0
+    if s[0].isdigit():
+        n=n+1
+    if s[1].isdigit():
+        n=n+1
+    if s[2].isdigit():
+        n=n+1
+    if s[3].isdigit():
+        n=n+1
+    if s[4].isdigit():
+        n=n+1
+    return n
+print(main("3214z"))
